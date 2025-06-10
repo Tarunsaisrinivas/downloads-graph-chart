@@ -1,0 +1,65 @@
+{
+  "name": "downloads-graph-chart",
+  "version": "1.0.0",
+  "description": "A reusable React component to visualize npm download stats using Chart.js.",
+  "author": "Tarun Sai Srinivas Allam",
+  "homepage": "https://tarunsaisrinivas.site/blogs/downloads-graph-chart",
+  "license": "MIT",
+  "main": "dist/downloads-chart.umd.js",
+  "module": "dist/downloads-chart.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/downloads-chart.es.js",
+      "require": "./dist/downloads-chart.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "chart.js": "^4.4.9",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
+  },
+  "keywords": [
+    "react",
+    "chart.js",
+    "react-chartjs-2",
+    "vite",
+    "npm",
+    "downloads",
+    "chart",
+    "component",
+    "visualization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/npm-download-chart"
+  }
+}

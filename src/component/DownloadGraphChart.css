@@ -1,0 +1,22 @@
+.downloads-chart-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* ✅ Default height for all screen sizes */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  @media (min-width: 640px) {
+    .downloads-chart-container {
+      height: 400px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .downloads-chart-container {
+      height: 500px;
+    }
+  }
+  

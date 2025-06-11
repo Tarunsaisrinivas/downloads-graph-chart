@@ -10,7 +10,7 @@ A lightweight, reusable React component to visualize **daily NPM download statis
 
 ---
 ## 👁️ Preview
-<img src = '/image.png' width={150} height ={150} /> 
+<img src = '/public/image.png' width={150} height ={150} /> 
 ---
 ## ✨ Features
 

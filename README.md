@@ -9,7 +9,9 @@ A lightweight, reusable React component to visualize **daily NPM download statis
 `downloads-graph-chart` lets you display a beautiful line chart showing the **last 30 days of download activity** for any NPM package. Perfect for documentation, portfolio dashboards, project analytics, or developer tools.
 
 ---
-
+## 👁️ Preview
+<img src = '/image.png' width={150} height ={150} /> 
+---
 ## ✨ Features
 
 - 📦 Fetches real-time data from the [NPM downloads API](https://api.npmjs.org/)

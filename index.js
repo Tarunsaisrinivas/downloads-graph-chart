@@ -1,2 +1,2 @@
-import DownloadGraphChart from "./src/component/DownloadChart";
-export default DownloadGraphChart;
+import DownloadsGraph from "./src/component/DownloadsGraph";
+export default DownloadsGraph;

@@ -1,4 +1,4 @@
-# 📊 Downloads-Graph-Chart
+# 📊 Downloads-Graph
 
 A lightweight, reusable React component to visualize **daily NPM download statistics** for any package — built with Chart.js and React ChartJS 2.
 
@@ -6,7 +6,7 @@ A lightweight, reusable React component to visualize **daily NPM download statis
 
 ## 🔍 Description
 
-`downloads-graph-chart` lets you display a beautiful line chart showing the **last 30 days of download activity** for any NPM package. Perfect for documentation, portfolio dashboards, project analytics, or developer tools.
+`downloads-graph` lets you display a beautiful line chart showing the **last 30 days of download activity** for any NPM package. Perfect for documentation, portfolio dashboards, project analytics, or developer tools.
 
 ---
 ## 👁️ Preview
@@ -25,9 +25,9 @@ A lightweight, reusable React component to visualize **daily NPM download statis
 ## 🚀 Installation
 
 ```bash
-npm install downloads-graph-chart
+npm install downloads-graph
 # or
-yarn add downloads-graph-chart
+yarn add downloads-graph
 ```
 
 Make sure you also have the required peer dependencies:
@@ -41,12 +41,12 @@ npm install react react-dom chart.js react-chartjs-2
 ## 🛠 Usage
 
 ```jsx
-import DownloadsGraphChart from "downloads-graph-chart";
+import DownloadsGraph from "downloads-graph";
 
 export default function App() {
   return (
     <div style={{ height: 400 }}>
-      <DownloadsGraphChart
+      <DownloadsGraph
         packageName="react"
         borderColor="blue"
         backgroundColor="rgba(0, 0, 255, 0.2)"
@@ -71,7 +71,7 @@ export default function App() {
 ## 🧠 Example
 
 ```jsx
-<DownloadsGraphChart
+<DownloadsGraph
   packageName="vite"
   borderColor="green"
   backgroundColor="rgba(0,255,0,0.1)"
@@ -106,4 +106,4 @@ react, chart, chartjs, downloads, npm, analytics, stats, graph, npm-stats, chart
 
 Developed by **Tarun Sai Srinivas**  
 🔗 [LinkedIn](https://www.linkedin.com/in/tarun-sai-srinivas)  
-📦 [npmjs.com/package/downloads-graph-chart](https://www.npmjs.com/package/downloads-graph-chart)
+📦 [npmjs.com/package/downloads-graph](https://www.npmjs.com/package/downloads-graph)

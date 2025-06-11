@@ -1,2 +1,2 @@
-import DownloadGraphChart from "./DownloadGraphChart";
-export default DownloadGraphChart;
+import DownloadsGraph from "./DownloadsGraph";
+export default DownloadsGraph;

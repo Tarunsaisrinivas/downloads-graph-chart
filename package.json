@@ -1,9 +1,9 @@
 {
-  "name": "downloads-graph-chart",
+  "name": "downloads-graph",
   "version": "1.0.1",
   "description": "A reusable React component to visualize npm download stats using Chart.js.",
   "author": "Tarun Sai Srinivas Allam",
-  "homepage": "https://tarunsaisrinivas.site/blogs/downloads-graph-chart",
+  "homepage": "https://tarunsaisrinivas.site/blogs/downloads-graph",
   "license": "MIT",
   "main": "dist/downloads-chart.umd.js",
   "module": "dist/downloads-chart.es.js",
@@ -26,13 +26,12 @@
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
-    "react-dom": "^18.0.0 || ^19.0.0",
-    "next": "^13.5.11"
+    "react-dom": "^18.0.0 || ^19.0.0"
   },
   "sideEffects": false,
   "dependencies": {
     "chart.js": "^4.4.9",
-    "next": "^13.5.11",
+    "next": ">=13.5.11",
     "react": "^18.0.0 || ^19.0.0",
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^18.0.0 || ^19.0.0"
@@ -62,6 +61,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tarunsaisrinivas/downloads-graph-chart"
+    "url": "https://github.com/Tarunsaisrinivas/downloads-graph.git"
   }
 }

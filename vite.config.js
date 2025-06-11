@@ -5,7 +5,7 @@ import path from "path";
 export default defineConfig({
   plugins: [
     react({
-      jsxRuntime: "automatic", // 👈 ensures "react-jsx" is used
+      jsxRuntime: "automatic",
     }),
   ],
   build: {
@@ -20,6 +20,8 @@ export default defineConfig({
         globals: {
           react: "React",
           "react-dom": "ReactDOM",
+          "chart.js": "Chart",
+          "react-chartjs-2": "ReactChartjs2",
         },
       },
     },

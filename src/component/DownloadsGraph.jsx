@@ -1,5 +1,5 @@
 // components/DownloadsChart.js
-import './DownloadGraphChart.css'; 
+import './DownloadsGraph.css'; 
 import { useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import {
@@ -23,7 +23,7 @@ ChartJS.register(
   Legend
 );
 
-export default function DownloadsChart({
+export default function DownloadsGraph({
   packageName,
   borderColor,
   backgroundColor,

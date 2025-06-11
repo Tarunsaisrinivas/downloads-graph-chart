@@ -17,7 +17,7 @@ A lightweight, reusable React component to visualize **daily NPM download statis
 - 📦 Fetches real-time data from the [NPM downloads API](https://api.npmjs.org/)
 - 📈 Interactive and responsive chart using [Chart.js](https://www.chartjs.org/)
 - 🎨 Fully customizable chart styles via props
-- ⚡ Works in both **React** and **Next.js** environments
+- ⚡ Works in **React**  environments
 - 📤 Easy to embed in your documentation or stats page
 
 ---
@@ -83,16 +83,14 @@ export default function App() {
 ## ✅ Compatibility
 
 - React 18+
-- Next.js 13+
 - Vite or CRA supported
 
 ---
 
 ## 🏷 Keywords
 
-```
-react, chart, chartjs, downloads, npm, analytics, stats, graph, npm-stats, chart-component, react-chart, react-chartjs, npm-downloads, nextjs
-```
+
+react, chart, chartjs, downloads, npm, analytics, stats, graph, npm-stats, chart-component, react-chart, react-chartjs, npm-downloads
 
 ---
 
